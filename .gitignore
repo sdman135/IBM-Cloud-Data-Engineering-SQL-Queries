@@ -114,4 +114,4 @@ dmypy.json
 .pyre/
 
 #hide folder
-hide/
+hide/*
