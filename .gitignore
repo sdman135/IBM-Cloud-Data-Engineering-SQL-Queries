@@ -115,3 +115,4 @@ dmypy.json
 
 #hide folder
 hide/*
+/hide/*
