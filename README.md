@@ -14,7 +14,7 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 ## What Did I Do?
 
 
-* The Connection:
+### The Connection:
 
   -  I first needed to create a database on IBM Cloud Pak and retrieved the database's credentials (ie. database's name, database's user & password, etc.) needed to connect.
 
@@ -25,7 +25,7 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 ![](images/magic_sql_conn.png)
 
 
-* Loading/Cleaning The Data:
+### Loading/Cleaning The Data:
 
   -  Loaded each dataset as separate pandas DataFrames.
   -  Dealt with variations of missing values and conflicts with column names and string values (errors later when inserting).
@@ -34,17 +34,18 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
   ![](images/clean_data1.png)
 
 
-* Creating/Inserting Tables:
+### Creating/Inserting Tables:
 
-  -  Created a function to auto-create SQL "CREATE TABLE" statements. Needed some manual tweaking but worked great as a base to start with.
+  * Creating Tables:
+    -  Created a function to auto-create SQL "CREATE TABLE" statements. Needed some manual tweaking but worked great as a base to start with.
 
-  ![](images/def_create_stmt.png)
+    ![](images/def_create_stmt.png)
 
-  -  Using %%sql command I created the three tables using the "CREATE TABLE" SQL statements.
+    -  Using %%sql command I created the three tables using the "CREATE TABLE" SQL statements.
 
-  ![](images/create_stmt.png)
+    ![](images/create_stmt.png)
 
-  -  Similar steps for Inserting of the data:
+  * Inserting Tables:
     - Created a function to auto-create SQL "INSERT INTO" statements based on the dataframes. Again a great base to start with (needed some adjustments).
     ![](images/def_insert_stmt.png)
     - Inserted data into the corresponding tables using the modified SQL "INSERT INTO" statements created.
@@ -52,7 +53,7 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 
 
 
-* Querying Data
+### Querying Data
 
   - Preformed a few queries on the newly constructed Tables.
 
