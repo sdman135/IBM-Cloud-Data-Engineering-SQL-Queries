@@ -61,7 +61,6 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 
   * A few based on question
   ![](images/query1.png)
-
   ![](images/query2.png)
 
 
