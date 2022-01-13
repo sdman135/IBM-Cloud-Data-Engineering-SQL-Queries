@@ -72,6 +72,7 @@ Please follow or add me on LinkedIn if you liked.
 
 * Python 3.8
 * Jupyter Notebook 6.0.1
+* IBM CloudPak - DB2
 * The imports I used: pandas, numpy, ibm_db, ibm_dbi
 
 
