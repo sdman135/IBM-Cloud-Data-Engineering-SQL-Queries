@@ -55,13 +55,14 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 
 ### Querying Data
 
-  - Preformed a few queries on the newly constructed Tables.
+  * Preformed a few queries on the newly constructed Tables.
 
-![](images/query_table.png)
-    - A few based on question
-    ![](images/query1.png)
+  ![](images/query_table.png)
 
-    ![](images/query2.png)
+  * A few based on question
+  ![](images/query1.png)
+
+  ![](images/query2.png)
 
 
 
