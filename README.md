@@ -37,17 +37,17 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 ### Creating & Inserting Tables:
 
 #### Creating Tables:
-    -  Created a function to auto-create SQL "CREATE TABLE" statements. Needed some manual tweaking but worked great as a base to start with.
-    ![](images/def_create_stmt.png)
+  -  Created a function to auto-create SQL "CREATE TABLE" statements. Needed some manual tweaking but worked great as a base to start with.
+  ![](images/def_create_stmt.png)
 
-    -  Using %%sql command I created the three tables using the "CREATE TABLE" SQL statements.
-    ![](images/create_stmt.png)
+  -  Using %%sql command I created the three tables using the "CREATE TABLE" SQL statements.
+  ![](images/create_stmt.png)
 
 #### Inserting Tables:
-    - Created a function to auto-create SQL "INSERT INTO" statements based on the dataframes. Again a great base to start with (needed some manual adjustments).
-    ![](images/def_insert_stmt.png)
-    - Inserted data into the corresponding tables using the modified SQL "INSERT INTO" statements created.
-    ![](images/insert_stmt.png)
+  - Created a function to auto-create SQL "INSERT INTO" statements based on the dataframes. Again a great base to start with (needed some manual adjustments).
+  ![](images/def_insert_stmt.png)
+  - Inserted data into the corresponding tables using the modified SQL "INSERT INTO" statements created.
+  ![](images/insert_stmt.png)
 
 
 
