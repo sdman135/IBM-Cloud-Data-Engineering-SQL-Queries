@@ -2,12 +2,12 @@
 
 Jan 2022
 
-![](hide/hide/images/IBM_Db2.png)
+![](hide/images/IBM_Db2.png)
 
 
 For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, learnt from IBM's Data Engineering Foundations Certification (on Coursera). Using three datasets of Chicago (Chicago Census, Chicago Crime, and Chicago Public School datasets). The course showed us how to create and insert data using the Cloud Pak UI. But I wanted to push myself and make the databases strictly using Python code (no UI). I severely underestimated IBM Cloud Pak's ability to auto correct errors when inserting, one table had auto corrected 1995 warning/errors when inserting using the UI). I have my work cut out for me.
 
-![](hide/images/IBM_Db2_insert.png)
+![](images/IBM_Db2_insert.png)
 
 
 
@@ -22,7 +22,7 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 
   -  Using python's Magic command (%sql) I was able to connect with my IBM Db2 database using the hidden credentials.
 
-![](hide/images/magic_sql_conn.png)
+![](images/magic_sql_conn.png)
 
 
 * Loading/Cleaning The Data:
@@ -31,24 +31,24 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
   -  Dealt with variations of missing values and conflicts with column names and string values (errors later when inserting).
   -  Reassign correct datatypes to columns.
 
-  ![](hide/images/clean_data1.png)
+  ![](images/clean_data1.png)
 
 
 * Creating/Inserting Tables:
 
   -  Created a function to auto-create SQL "CREATE TABLE" statements. Needed some manual tweaking but worked great as a base to start with.
 
-  ![](hide/images/def_create_stmt.png)
+  ![](images/def_create_stmt.png)
 
   -  Using %%sql command I created the three tables using the "CREATE TABLE" SQL statements.
 
-  ![](hide/images/create_stmt.png)
+  ![](images/create_stmt.png)
 
   -  Similar steps for Inserting of the data:
     - Created a function to auto-create SQL "INSERT INTO" statements based on the dataframes. Again a great base to start with (needed some adjustments).
-    ![](hide/images/def_insert_stmt.png)
+    ![](images/def_insert_stmt.png)
     - Inserted data into the corresponding tables using the modified SQL "INSERT INTO" statements created.
-    ![](hide/images/insert_stmt.png)
+    ![](images/insert_stmt.png)
 
 
 
@@ -56,11 +56,11 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 
   - Preformed a few queries on the newly constructed Tables.
 
-![](hide/images/query_table.png)
+![](images/query_table.png)
     - A few based on question
-    ![](hide/images/query1.png)
+    ![](images/query1.png)
 
-    ![](hide/images/query2.png)
+    ![](images/query2.png)
 
 
 
