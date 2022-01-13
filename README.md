@@ -2,7 +2,7 @@
 
 Jan 2022
 
-![](hide/images/IBM_Db2.png)
+![](images/IBM_Db2.png)
 
 
 For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, learnt from IBM's Data Engineering Foundations Certification (on Coursera). Using three datasets of Chicago (Chicago Census, Chicago Crime, and Chicago Public School datasets). The course showed us how to create and insert data using the Cloud Pak UI. But I wanted to push myself and make the databases strictly using Python code (no UI). I severely underestimated IBM Cloud Pak's ability to auto correct errors when inserting, one table had auto corrected 1995 warning/errors when inserting using the UI). I have my work cut out for me.
