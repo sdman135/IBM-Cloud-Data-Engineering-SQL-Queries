@@ -29,7 +29,7 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 
   -  Loaded each dataset as separate pandas DataFrames.
   -  Dealt with variations of missing values and conflicts with column names and string values (errors later when inserting).
-  -  Reassign correct datatypes to columns.
+  -  Reassign correct data types to columns.
 
   ![](images/clean_data1.png)
 
