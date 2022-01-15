@@ -37,7 +37,7 @@ For this project I wanted to showcase my IBM Cloud-Pak Data Engineering skills, 
 ### Creating & Inserting Tables:
 
 #### Creating Tables:
-  -  Created a function to auto-create SQL "CREATE TABLE" statements. Needed some manual tweaking but worked great as a base to start with.
+  -  Created a function to auto-create SQL "CREATE TABLE" statements; from a pandas dataframe. Needed some manual tweaking but worked great as a base to start with.
   ![](images/def_create_stmt.png)
 
   -  Using %%sql command I created the three tables using the "CREATE TABLE" SQL statements.
